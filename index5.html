@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Pincode finder</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Pincode Data Finder</h1>
+            <br><br>
+            <b>Enter only 6 digit pincode in box</b>
+        </div>
+        <div class="form-group box1">
+            <input type="number" id="num" placeholder="Enter 6 digit number">
+             <button onclick="getininfo()">Submit</button>
+        </div>
+        <div class="form-group box2">
+            <p><b>State<i class="bi bi-geo-alt"></i></b></p>
+            <input type="text" id="state" disabled>
+            <br>
+            <p><b>District<i class="bi bi-geo-alt"></i></b></p>
+            <input type="text" id="district" disabled>
+            <p><b>Area<i class="bi bi-geo-alt"></i></b></p>
+            <input type="text" id="area" disabled>    
+        </div>
+    </div>
+    <script src="script4.js"></script>
+    </body>
+</html>

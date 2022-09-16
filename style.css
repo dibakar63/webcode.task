@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(181, 89, 220);
+    
+    
+    padding: 10px;
+    color:rgb(62, 55, 55)
+}
+.h1{
+    background-color: rgb(234, 242, 16);
+    align-items: center;
+    text-align: center;
+}
+i{
+    background-color: pink;
+    border-radius: 50%;
+}
+input{
+    background-color: rgb(239, 230, 218);
+    color: blue;
+}
+.result:hover{
+    background-color: rgb(59, 181, 195);
+    border: 1px dashed rgb(195, 59, 82);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    box-sizing: border-box;
+    
+}
