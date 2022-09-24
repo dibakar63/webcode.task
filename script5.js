@@ -8,12 +8,12 @@ submit.innerHTML="Submit";
 submit.style.backgroundColor="pink";
 
 let result=document.querySelector(".result");
-let product =input.value;
+
 result.innerHTML="";
 
  submit.addEventListener("click",async()=>{
     try {
-        let response= await fetch("http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline",
+        let response= await fetch("http://makeup-api.herokuapp.com/api/v1/products.json?brand="+input.value+"",
         {
                method:"GET",
                body:JSON.stringify(),
